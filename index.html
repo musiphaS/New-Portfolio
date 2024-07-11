@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="mediaquries.css">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">K.S.M</div>
+        <div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Kelvin Musipha</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <!-- profile section start -->
+    <section id="profile">
+        <!-- <div class="section__pic-container">
+            <img src="/assets/IMG_4335-11.jpg" alt="Kelvin Musipha Profile Picture" class="profile-picture1">
+        </div> -->
+        <div class="section__text">
+            <p class="section__text__p11">Hello, I'm</p>
+            <h1 class="title1">Kelvin Musipha</h1>
+            <p class="section__text__p2">Front-end Developer</p>
+            <div class="btn-container">
+                <button class="btn-color-2" onclick="window.open('./assets/Kelvin Musipha Resume.pdf')">Download CV</button>
+                <button class="btn-color-1" onclick="location.href ='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="/assets/linkedin.png" alt="My linkedin Profile" class="icon" onclick="location.href= '//www.linkedin.com/in/kelvin- musipha-s-64790b18a'">
+                <img src="/assets/github.png" alt="My Github Profile" class="icon" onclick="location.href= 'www.linkedin.com/in/kelvin- musipha-s-64790b18a'">
+            </div>
+        </div>
+    </section>
+    <!-- profile section end -->
+
+    <!-- about section start -->
+     <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="/assets/IMG_4335-1.jpg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <!-- <div class="about-container">
+                    <div class="details-container">
+                        <img src="/assets/experience.png" alt="experience-icon" class="icon">
+                        <h3>In Progress</h3>
+                        <br>
+                        <p>Diploma in Web Developement(In Progress)</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="/assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <br>
+                        <p class="edu-span">Diploma in Hardware Engineering</p>
+                    </div>
+                </div> -->
+
+                <div class="text-container">
+                    <p> Current Student looking to join the workforce to gain real-world experience.
+                        Ability to complete tasks on time in both individual and team settings.
+                        Dependable and reliable, ready to learn and grow with your company.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- <img src="/assets/arrow.png" alt="arrow icon" class="icon-arrow" onclick="location.href='#experience'"> -->
+     </section>
+    <!-- about section start -->
+
+    <!-- experience section start -->
+     <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>BootStrap 5</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>React JS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Volunteering Program</h2>
+                        <div class="article-container">
+                            <img src="/assets/Scracth Lessons.jpg" alt="project 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Youth Coding</h2>
+                        <p>Creating simple games, animations or interactive stories using Scratch and Woof block-based coding interface.</p>
+                </div>
+                <!-- <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>SASS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>BootStrap 5</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="/assets/checkmark.png" alt="experience-icon" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Volunteering Program</h2>
+                        <div class="article-container">
+                            <img src="/assets/Scracth Lessons.jpg" alt="project 1" class="project-img">
+                        </div>
+                        <h2 class="experience-sub-title project-title">Youth Coding</h2>
+                </div> -->
+            </div>
+        </div>
+        <!-- make sure this image is on position relative of the about arrow coz it will start to misbehave -->
+        <!-- <img src="/assets/arrow.png" alt="arrow icon" class="icon-arrow" onclick="location.href='#projects'"> -->
+     </section>
+    <!-- experience section end -->
+
+    <!-- projects section start -->
+     <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+    <!-- first project -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/assets/project-1.png" alt="project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Start Bootstrap</h2>
+                <p>On this Project l intergrated BootStrap framework, which allowed me to use the features such as grid-systems and responsive design.</p>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://musiphas.github.io/BootStrap-Site-2/'">
+                        View Live Project
+                    </button>
+                    <!-- <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button> -->
+                    
+                </div>
+            </div>
+
+    <!-- second project -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/assets/project-2.png" alt="project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Tigzozo Media</h2>
+                <p>This project was done for a locally rooted documentary company that uses the power of flim  and photography to share meaningful stories from Zimbabwe</p>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://musiphas.github.io/Tigzozo-Project/'">
+                        View Live Project
+                    </button>
+                    <!-- <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button> -->
+                    
+                </div>
+            </div>
+    <!-- third project -->
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="/assets/project-3.png" alt="project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">No Walls</h2>
+                <p>NoWalls Media embraces collaborative, agile workflow that empowers clients to be active participants in the creative process</p>
+                <br>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project btn" onclick="location.href='https://musiphas.github.io/No-Walls-Project-NewSite/'">
+                        View Live Project
+                    </button>
+                    <!-- <button class="btn btn-color-2 project btn" onclick="location.href='https://github.com/'">
+                        Live Demo
+                    </button> -->
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- <img src="/assets/arrow.png" alt="arrow icon" class="icon-arrow" onclick="location.href='#contact'"> -->
+     </section>
+    <!-- projects section end -->
+
+
+    <!-- contact section start -->
+
+     <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="/assets/email.png" alt="email icon" class="icon contact-icon">
+                <p><a href="mailto:examplemail.gmail.com">kelvinmusipha@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="/assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/kelvin- musipha-s-64790b18a">LinkedIn</a></p>
+            </div>
+        </div>
+
+        <!-- <button class='btn-wrapper'>
+            <span class="btn-text">Get Started</span>
+        </button> -->
+
+     </section>
+
+    <!-- contact section end -->
+
+    <!-- footer section start -->
+
+    <section id="footer">
+        <footer>
+            <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            </nav>
+            <p>Copyright &#169; 2024 Kelvin Musipha. All rights Reserved.</p>
+        </footer>
+        <img src="/assets/arrow.png" alt="arrow icon" class="icon-arrow" onclick="location.href='#desktop-nav'">
+    </section>
+
+    <!-- footer section end -->
+
+    <script src="syntax.js"></script>
+</body>
+</html>

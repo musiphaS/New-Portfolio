@@ -1,0 +1,46 @@
+// so the code below means that if the screen size is lower 
+// than 1200px desknav is going to disappear
+@media screen and (max-width: 1400px) {
+    #profile {
+        // height: 80vh;
+        margin: 0px 0px 80px 0px;
+    }
+
+    .about-containers {
+        flex-wrap: wrap;
+    }
+}
+
+// @media screen and (max-width: 1200px) {
+//     #desktop-nav {
+//         display: none;
+//     }
+//     #hamburger-nav {
+//         display: flex;
+//     }
+//     #experience, .experience-details-container {
+//         margin-top: 2rem;
+//     }
+//     #profile, .section-container {
+//         display: block;
+//     }
+//     .arrow {
+//         display: none;
+//     }
+//     .section, .section-container {
+//         height: fit-content;
+//     }
+//     section {
+//         margin: 0 5%;
+//     }
+//     .section__pic-container {
+//         width: 275px;
+//         height: 275px;
+//         margin: 0 auto 2rem;
+//     }
+//     .about-containers {
+//         margin-top: 0;
+//     }
+
+// }
+

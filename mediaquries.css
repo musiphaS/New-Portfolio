@@ -1,0 +1,8 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    margin: 0px 0px 80px 0px;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=mediaquries.css.map */
