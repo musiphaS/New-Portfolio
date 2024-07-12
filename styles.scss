@@ -298,8 +298,9 @@ button {
 }
 
 .about-pic {
-    // border-radius: 2rem;
-    border-radius: 8px
+    border-radius: 8px;
+    height: 400px;
+    width: 270px;
 }
 
 .icon-arrow {
@@ -421,7 +422,7 @@ article .icon {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     background: rgb(250 250 250);
-    margin: 2rem auto;
+    margin: 32px auto;
     padding: 0.5rem;
 }
 
