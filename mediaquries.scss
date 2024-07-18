@@ -66,6 +66,9 @@
         font-size: 26px;
         margin-bottom: 35px;
     }
+    .section__pic-container {
+        display: none;
+    }
     button {
         font-weight: 600;
         transition: all 300ms ease;
@@ -105,6 +108,7 @@
     .about-pic {
         width: 74%;
         height: fit-content;
+        display: none;
     }
     
 
@@ -127,7 +131,8 @@
         // border-color: rgb(163, 163, 163);
         // background: rgb(250, 250, 250);
         padding: 0px;
-        margin: 20px -13px;
+        // margin: 20px -13px;
+        margin: 15px -36px;
         // padding: 0.5rem;
     }
     a {
