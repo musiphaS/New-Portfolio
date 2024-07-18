@@ -8,6 +8,10 @@
   font-family: "Poppins";
   src: url(Poppins-Regular.ttf);
 }
+@font-face {
+  font-family: "GaMaamli";
+  src: url(GaMaamli-Regular.ttf);
+}
 body {
   font-family: "Poppins";
 }
@@ -97,7 +101,8 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: 35px;
+  font-family: "GaMaamli";
 }
 
 .logo:hover {
