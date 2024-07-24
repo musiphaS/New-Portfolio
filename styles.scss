@@ -358,7 +358,7 @@ section {
 }
 
 .title1 {
-    font-size: 5rem;
+    font-size: 3rem;
     background: linear-gradient(to top, rgb(163, 163, 163) 10%, #000 60%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -388,6 +388,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    padding: 20px 0px 0px 0px;
 }
 
 button {

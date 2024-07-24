@@ -67,11 +67,14 @@
     display: flex;
     justify-content: space-around;
     gap: 5rem;
-    height: 80vh;
+    height: 100vh;
     margin: 0px;
   }
   section {
     margin: 0 3rem;
+  }
+  .container-1 {
+    display: none;
   }
   .section__text__p1 {
     text-align: center;
