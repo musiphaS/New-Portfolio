@@ -478,12 +478,21 @@ article .icon {
 }
 
 #projects {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-details-container, .projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .color-container {
   border-color: rgb(163, 163, 163);
   background: rgb(250, 250, 250);
+  position: sticky;
+  top: 0px;
 }
 
 .project-img {
@@ -505,38 +514,80 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 85vh;
 }
 
-.contact-info-upper-container {
-  display: flex;
-  justify-content: center;
-  border-radius: 8px;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
-  margin: 32px auto;
-  padding: 0.5rem;
-}
-
-.contact-info-container {
+.contact-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
 }
 
-.contact-info-container p {
-  font-size: larger;
+.contact-centre {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
 }
 
-.contact-icon {
-  cursor: default;
+.contact-centre-title h2 {
+  font-weight: 600;
+  color: #a363a3;
+  font-size: 40px;
+  margin-bottom: 5px;
 }
 
-.email-icon {
-  height: 2.5rem;
+.contact-centre-title hr {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #a363a3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-inputs {
+  width: 400px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  color: #666;
+  border-radius: 50px;
+}
+
+.contact-centre textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contact-inputs:focus {
+  border: 2px solid #ff994f;
+}
+
+.contact-inputs::-moz-placeholder {
+  color: grey;
+}
+
+.contact-inputs::placeholder {
+  color: grey;
+}
+
+.contact-centre button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  width: 400px;
+  height: 50px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg #ff994f, #fa6d86);
+  cursor: pointer;
 }
 
 #footer {

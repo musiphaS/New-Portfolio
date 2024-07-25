@@ -151,7 +151,7 @@
     }
 
     #contact {
-        height: 40vh;
+        height: 90vh;
     }
 
     .icon-arrow {
@@ -253,9 +253,9 @@
         flex-direction: column;
     }
 
-    #contact {
-        height: 30vh;
-    }
+    // #contact {
+    //     height: 30vh;
+    // }
 
     .contact-info-upper-container {
         margin: 32px 0px 0px 0px;
@@ -283,8 +283,8 @@
   
   /* Large Screens (Desktops, TVs) */
   @media (min-width: 1281px) {
-    #contact {
-        height: 50vh;
-    }
+    // #contact {
+    //     height: 50vh;
+    // }
   }
 

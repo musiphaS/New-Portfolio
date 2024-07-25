@@ -114,7 +114,7 @@
     align-items: center;
   }
   #contact {
-    height: 40vh;
+    height: 90vh;
   }
   .icon-arrow {
     height: 30px;
@@ -195,9 +195,6 @@
     display: flex;
     flex-direction: column;
   }
-  #contact {
-    height: 30vh;
-  }
   .contact-info-upper-container {
     margin: 32px 0px 0px 0px;
   }
@@ -215,9 +212,4 @@
   }
 }
 /* Small Laptops and Desktops */
-/* Large Screens (Desktops, TVs) */
-@media (min-width: 1281px) {
-  #contact {
-    height: 50vh;
-  }
-}/*# sourceMappingURL=mediaquries.css.map */
+/* Large Screens (Desktops, TVs) *//*# sourceMappingURL=mediaquries.css.map */
