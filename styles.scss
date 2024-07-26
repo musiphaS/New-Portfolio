@@ -33,18 +33,6 @@ a, .btn {
 
 // desktop nav 
 
-// nav, .nav-links {
-//     display: flex;
-//     list-style: none;
-//     gap: 20px;
-
-//     a {
-//         text-decoration: none;
-//         color: black;
-//         font-size: 20px;
-//     }
-// }
-
 nav {
     display: flex;
     justify-content: space-around;
@@ -258,7 +246,6 @@ section {
     display: flex;
     align-items: center;
     position: relative;
-    // background: #f0f8ff;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
   }
 
@@ -285,7 +272,6 @@ section {
 .time .time-colon .time-text,
 .time .time-colon .colon {
   font-size: 20px;
-//   font-weight: 600px;
 }
 
 .colon {
@@ -302,12 +288,6 @@ section {
     font-weight: 700;
     letter-spacing: 2px;
 }
-
-
-
-
-
-
 
 .profile-picture1 {
     border-radius: 2rem;
@@ -366,6 +346,7 @@ section {
 .title {
     font-size: 3rem;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 #socials-container {
@@ -440,7 +421,6 @@ button {
 
 .about-container, .about-details-container {
     display: flex;
-    // flex-direction: column;
 }
 
 .edu-span {
@@ -473,7 +453,6 @@ button {
 
 .section-container {
     gap: 4rem;
-    // height: 80vh;
     margin: 0px 0px 80px 0px;
 }
 
@@ -527,7 +506,6 @@ article .icon {
 // PROJECTS SECTION STYLING
 
 #projects {
-    // position: relative;
     display: flex;
     flex-direction: column;
 }
@@ -542,7 +520,7 @@ article .icon {
     border-color: rgb(163, 163, 163);
     background: rgb(250, 250, 250);
     position: sticky;
-    top: 0px;
+    top: 20px;
 }
 
 .project-img {
@@ -564,7 +542,6 @@ article .icon {
 // CONTACT SECTION STYLING
 
 #contact {
-    // position: relative;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -575,7 +552,6 @@ article .icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    // height: 100vh;
 }
 
 .contact-centre {
@@ -596,7 +572,7 @@ article .icon {
     border: none;
     width: 120px;
     height: 5px;
-    background-color: #a363a3;
+    background-color: black;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -604,7 +580,7 @@ article .icon {
 .contact-inputs {
     width: 400px;
     height: 50px;
-    border: none;
+    border: 1px solid black;
     outline: none;
     padding-left: 25px;
     font-weight: 500;
@@ -618,10 +594,6 @@ article .icon {
     border-radius: 20px;
 }
 
-.contact-inputs:focus {
-    border: 2px solid #ff994f;
-}
-
 .contact-inputs::placeholder {
     color: grey;
 }
@@ -629,6 +601,7 @@ article .icon {
 .contact-centre button {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 15px 30px;
     width: 400px;
     height: 50px;
@@ -637,40 +610,15 @@ article .icon {
     gap: 10px;
     border: none;
     border-radius: 50px;
-    background: linear-gradient(270deg #ff994f, #fa6d86);
+    background-color: black;
     cursor: pointer;
 }
 
-// .contact-info-upper-container {
-//     display: flex;
-//     justify-content: center;
-//     border-radius: 8px;
-//     border: rgb(53, 53, 53) 0.1rem solid;
-//     border-color: rgb(163, 163, 163);
-//     background: rgb(250 250 250);
-//     margin: 32px auto;
-//     padding: 0.5rem;
-// }
-
-// .contact-info-container {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     gap: 0.5rem;
-//     margin: 1rem;
-// }
-
-// .contact-info-container p {
-//     font-size: larger;
-// }
-
-// .contact-icon {
-//     cursor: default;
-// }
-
-// .email-icon {
-//     height: 2.5rem;
-// }
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 // FOOTER SECTION 
 

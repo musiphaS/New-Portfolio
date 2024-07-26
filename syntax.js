@@ -9,7 +9,7 @@ function toggleMobileMenu() {
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Front-end Developer", "UI/UX Designer", "Youth Coding Instructor", "at Uncommon"];
+const textArray = ["Front-end Developer", "UI/UX Designer", "Youth Coding Instructor"];
 const typingDelay = 200;
 const erasingDelay = 50;
 const newTextDelay = 1500;
@@ -58,7 +58,7 @@ setInterval(() => {
   // so fo this section l created an if block statement using ? and :
   let day;
   day = hour < 12 ? "AM" : "PM"; // if hour is smaller 12 than its value will be AM else PM
-  hour = hour > 12 ? hour - 12 : hour; //if hour value is greater than 12, 12 will subtract (by doing this we will get value till 12)
+  hour = hour > 24 ? hour - 12 : hour; //if hour value is greater than 12, 12 will subtract (by doing this we will get value till 12)
   hour = hour == 0 ? hour = 12 : hour; // if hour value is 0 then it will be 12 
 
   // now l want to add a zero(0) to all value if they are less than 10
