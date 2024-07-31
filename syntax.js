@@ -1,3 +1,4 @@
+
 function toggleMobileMenu() {
     menu.classList.toggle('open');
   }
@@ -73,3 +74,4 @@ setInterval(() => {
   document.querySelector(".am_pm").innerText = day;
 
 }, 1000); //not that 1000 milliseconds = 1s,
+

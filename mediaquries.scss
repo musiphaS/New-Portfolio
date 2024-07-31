@@ -146,8 +146,12 @@
         align-items: center;
     }
 
-    #contact {
-        height: 90vh;
+    .contact-inputs {
+        width: 335px;
+    }
+
+    .contact-centre button {
+        width: 335px;
     }
 
     .icon-arrow {
@@ -234,6 +238,7 @@
 
     section {
         margin: 0 80px;
+        // height: 60vh;
     }
 
     .section__pic-container {

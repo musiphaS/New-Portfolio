@@ -114,8 +114,11 @@
     justify-content: center;
     align-items: center;
   }
-  #contact {
-    height: 90vh;
+  .contact-inputs {
+    width: 335px;
+  }
+  .contact-centre button {
+    width: 335px;
   }
   .icon-arrow {
     height: 30px;
