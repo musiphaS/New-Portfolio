@@ -1,8 +1,16 @@
+// :root {
+//     --black-100: #000;
+    
+// }
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    // background-color: var(--black-100);
 }
+
+
 
 @font-face {
     font-family: "Poppins";
@@ -14,6 +22,7 @@
 }
 body {
    font-family: "Poppins";
+   color: white;
 }
 
 html {

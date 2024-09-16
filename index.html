@@ -222,11 +222,12 @@
         <!-- <p class="section__text__p1">Get in Touch</p> -->
         <h2 class="title">Get in Touch</h2>
         <div class="contact-container">
-            <form action="" class="contact-centre">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-centre">
                 <div class="contact-centre-title">
                     <hr>
                 </div>
                 <div class="form-inputs">
+                <input type="hidden" name="access_key" value="80b6ebad-f318-464d-b4c5-5a24bb25c0ce">
                 <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
                 <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
                 <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>

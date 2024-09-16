@@ -10,7 +10,7 @@ function toggleMobileMenu() {
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Front-end Developer", "UI/UX Designer", "Youth Coding Instructor"];
+const textArray = ["Front-end Developer", "UI/UX Designer", "Primary School Coding Instructor"];
 const typingDelay = 200;
 const erasingDelay = 50;
 const newTextDelay = 1500;
@@ -19,11 +19,11 @@ let charIndex = 0;
 
 function type() {
   if(charIndex < textArray[textArrayIndex].length) {
-    cursorSpan.classList.add("typing", !cursorSpan.classList.contains("typing"));
+    // cursorSpan.classList.add("typing", !cursorSpan.classList.contains("typing"));
     typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex++);
     setTimeout(type, typingDelay);
   } else {
-    cursorSpan.classList.remove("typing");
+    // cursorSpan.classList.remove("typing");
     setTimeout(erase, newTextDelay);
   }
 }
