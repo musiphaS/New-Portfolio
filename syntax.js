@@ -10,7 +10,7 @@ function toggleMobileMenu() {
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Front-end Developer", "UI/UX Designer", "Primary School Coding Instructor"];
+const textArray = ["Front-end Developer", "UI/UX Designer"];
 const typingDelay = 200;
 const erasingDelay = 50;
 const newTextDelay = 1500;

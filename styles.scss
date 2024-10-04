@@ -1,7 +1,4 @@
-// :root {
-//     --black-100: #000;
-    
-// }
+
 
 * {
     margin: 0px;
@@ -22,7 +19,6 @@
 }
 body {
    font-family: "Poppins";
-   color: white;
 }
 
 html {
@@ -46,7 +42,6 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // what ever the vh of the screen 
     height: 17vh;
 }
 
