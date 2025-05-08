@@ -561,23 +561,36 @@ button {
 
 // ABOUT SECTION STYLING
 
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-container {
+    width: 100%;
+}
+
 #about {
     position: relative;
 }
 
-.about-container {
-    gap: 2rem;
-    margin: 32px 0px 80px 0px;
-}
+// .about-container {
+//     gap: 2rem;
+//     margin: 32px 0px 80px 0px;
+// }
 
-.about-details-container {
-    justify-content: center;
-    flex-direction: column;
-}
+// .about-details-container {
+//     justify-content: center;
+//     flex-direction: column;
+// }
 
-.about-container, .about-details-container {
-    display: flex;
-}
+// // .about-container, .about-details-container {
+// //     display: flex;
+// // }
 
 .edu-span {
     font-weight: 800;
@@ -605,6 +618,7 @@ button {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .section-container {
